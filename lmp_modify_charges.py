@@ -1,5 +1,5 @@
 import re
-
+# import os
 def modify_charge_only(input_file, output_file):
     # 1. 定义各区间电荷规则（仅更新elem_charge_map的数值，其他完全不变）
     charge_group1 = [-0.6750957486, 0.2383586420, 0.2383586420, 0.4638739783,
